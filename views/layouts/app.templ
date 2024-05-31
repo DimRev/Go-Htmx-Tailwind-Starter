@@ -1,14 +1,18 @@
 package layouts
 
+import "github.com/DimRev/Go-Htmx-Tailwind-Starter/views/components"
+
 templ App() {
 	<!DOCTYPE html>
 	<html lang="en">
 		<head>
 			<meta charset="UTF-8"/>
+			<link rel="stylesheet" href="/public/styles.css"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<title>Go Htmx Tailwind Starter</title>
 		</head>
-		<body>
+		<body class="h-dvh bg-cyan-900">
+			@components.Header()
 			{ children... }
 		</body>
 	</html>
