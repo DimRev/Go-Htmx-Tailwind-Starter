@@ -1,0 +1,1 @@
+<header class=\"flex justify-between container\"><div>Logo</div><nav class=\"flex gap-2\"><a href=\"/\">Home</a> <a href=\"/about\">About</a> <a href=\"/contact\">Contact</a></nav></header>
