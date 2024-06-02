@@ -4,8 +4,8 @@ run: build
 build: 
 	@go build -o bin/app .
 
-templ-watch:
-	@templ generate --watch --proxy=http://localhost:3000
+templ:
+	@templ generate
 
 css:
 	tailwindcss -i app/css/app.css -o public/styles.css --watch
